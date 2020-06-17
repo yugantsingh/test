@@ -1,0 +1,55 @@
+h1
+{
+  font-size: 50px;
+font-family: inherit;
+font-weight: 700;
+margin-left: 20px;
+margin-right: 20px;
+background-color: lawngreen;
+text-transform: uppercase;
+}
+p {
+  letter-spacing: 1.5px;
+  font-size: 20px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  background-color: lemonchiffon;
+}
+h2{
+  font-size: 40px;
+  font-family: unset;
+  margin-left: 150px;
+  font-weight: 900;
+  margin-right:200px ;
+  background-color: turquoise;
+  text-transform: uppercase;
+}
+h3{
+  font-size: 40px;
+  font-family: unset;
+  margin-left: 150px;
+  font-weight: 900;
+  margin-right:200px ;
+  background-color: yellow;
+  text-transform: uppercase;}
+
+h4{ 
+
+  font-size: 40px;
+  font-family: unset;
+  margin-left: 150px;
+  font-weight: 900;
+  margin-right:200px ;
+  background-color: royalblue;
+  text-transform: uppercase;
+
+}
+body
+{ background-color: pink;
+
+}
+img
+{
+  width:700px ;
+  align-items: center;
+  height: 400px;
+}
