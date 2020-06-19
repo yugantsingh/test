@@ -1,55 +1,72 @@
-h1
-{
-  font-size: 50px;
-font-family: inherit;
-font-weight: 700;
-margin-left: 20px;
-margin-right: 20px;
-background-color: lawngreen;
-text-transform: uppercase;
+*{
+  box-sizing: border-box;
+  margin: 0;
+  border: 0;
 }
-p {
+body{
+  background: #c0c0aa;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #1cefff, #c0c0aa);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #1cefff, #c0c0aa); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  /* background: linear-gradient( to left,#4dbaec,#dea4e0); */
+}
+div{
+  text-align: center;
+}
+h1{
+  background: linear-gradient( to left,#dadddf,#e4b7e6);;
+  text-transform: capitalize;
+  text-align: center;
+  font-size: 3em;
+  margin: 10px auto;
+  padding: 8px;
+}
+p{
+  background: linear-gradient( to left,#e189ec31,#cfe0f05b);
+  font-size: 1.3em;
+  margin: 20px 50px;
+  text-align: center;
   letter-spacing: 1.5px;
-  font-size: 20px;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  background-color: lemonchiffon;
+  padding: 10px;
 }
-h2{
-  font-size: 40px;
-  font-family: unset;
-  margin-left: 150px;
-  font-weight: 900;
-  margin-right:200px ;
-  background-color: turquoise;
-  text-transform: uppercase;
+img{
+  margin: 0 auto;
+  width: 25%;
 }
-h3{
-  font-size: 40px;
-  font-family: unset;
-  margin-left: 150px;
-  font-weight: 900;
-  margin-right:200px ;
-  background-color: yellow;
-  text-transform: uppercase;}
-
-h4{ 
-
-  font-size: 40px;
-  font-family: unset;
-  margin-left: 150px;
-  font-weight: 900;
-  margin-right:200px ;
-  background-color: royalblue;
-  text-transform: uppercase;
-
+@media screen and (max-width: 992px) {
+  h1{
+    background-color: lawngreen;
+    font-size: 3.5em;
+  }
+  p{
+    font-size: 1.2em;
+    margin: 10px 25px;
+    line-height: 1.6;
+    
+  }
+  img{
+    margin: 0 auto;
+    width: 65%;
+  }
+  /* p{
+    width: 80%;
+  } */
 }
-body
-{ background-color: pink;
-
-}
-img
-{
-  width:700px ;
-  align-items: center;
-  height: 400px;
+@media screen and (max-width: 600px) {
+  h1{
+    font-size: 3.4em;
+  }
+  p{
+    font-size: 1.2em;
+    margin: 10px 25px;
+    line-height: 1.5;
+  }
+  img{
+    margin: 0 auto;
+    width: 75%;
+  }
+  /* p{
+    text-align: center;
+    width: 80%;
+  } */
 }
